@@ -1,0 +1,93 @@
+@charset "UTF-8";
+	body {overflow:hidden}
+	
+	#historyListSection {
+		border: 1px solid #E0E0E0;
+		max-width:1080px;
+		width:90%;
+		max-height:974px;
+		height:90%;
+		position:absolute;
+		left:15rem;
+		top:5rem;
+		display:block;
+		overflow:auto;
+	}
+	th {
+		background:rgb(170,207,208);
+		border-collapse:collapse;
+	}
+	#searchArea{
+		height:35px;
+		margin: 0 auto;
+		width:99.8%;
+		border: 1px solid #919E9E;
+	}
+	#listArea {
+		background:white;
+		width:100%;
+	}
+
+	#listArea td {
+		border-collapse:collapse;
+	
+	}
+	#searchBtn, #allListBtn{
+		background:rgb(121,168,169);
+		border: 1px black ;
+		height: 27px;
+	}
+	#searchBtn:hover, , #allListBtn:hover{
+		background:rgba(121,168,169,0.5);
+
+	}
+	
+	.table-bottom td {
+		border-bottom: 1px solid #E0E0E0;
+	}
+	#modalBackground {
+	    display: none;
+	    position: fixed;
+	    top: 0; left: 0;
+	    width: 100%; height: 100%;
+	    background: rgba(0,0,0,0.3);
+	    z-index: 10;
+	}
+	
+	#detailCloseBtn {
+		margin-top:5px;
+		background:rgb(121,168,169);
+		border: 1px black;
+	}
+	
+	#detailContent {
+		margin:0 auto;
+	    display: none;
+	    position: fixed;
+	    left: calc(50% - 200px);
+		top: calc(50% - 120px); 
+	    width: 23%;
+		height: 300px; 
+	    background: #fff;
+	    z-index: 11;
+	}
+    
+    .detailTable {
+   	    margin: 0 auto;
+		display: block;
+	    width:100%;
+	    height:80%;
+		text-align: center;
+		overflow:auto;
+    }
+    
+    .detailTable th {
+		height: 20px;
+		position:sticky;
+		top:0px;
+	}
+	.detailTable td {
+		border-collapse: collapse;
+		border-bottom: 1px solid #E0E0E0;
+	}
+  

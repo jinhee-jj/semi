@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+.outer{  
+	height:1024px;     
+	margin:0 auto; 
+	margin-top:95px;
+} 
+
+.top{   
+	border-bottom:7px solid lightgray;   
+	line-height:50px;   
+	font-size:30px;
+	width:100%;    
+} 
+
+.center{   
+	height:650px; 
+	color:black;
+	font-size:30px;
+}
+
+.serve{   
+	border-top:7px solid lightgray;   
+	line-height:0px;   
+	font-size:28px; 
+	width:100% 
+} 
+
+.left{   
+	width:25%;   
+	float:left;   
+	border-right:7px solid #fff; 
+	margin-left:80px;
+} 
+
+.right{  
+	width:68%;   
+	float:left;  
+	text-align:right; 
+}  
+
+
+.BCenter{   
+	border-bottom:7px solid black;   
+} 
+
+
+	
+h2, h1{
+text-align:center;
+margin:47px;
+}
+
+
+h2{
+margin-top:35px;
+}	
+span.orderNo{
+	display: block;
+	font-size:120px;
+	text-align:center;
+	margin:0 auto;
+}

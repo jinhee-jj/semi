@@ -1,0 +1,85 @@
+@charset "UTF-8";
+#main{
+	height:1024px;
+	margin-top: 250px;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #FF5F2E;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.radio-DEPTCODE{
+    background-color: #AACFD0;
+    margin: 8px 0;
+    padding: 8px 8px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.logowrap{
+	width: 1280px;
+    margin: 0 auto;
+}
+
+.logo {
+  text-align: center;
+  width:600px;
+  float:left;
+  
+}
+
+.logo img{
+	width:350px;
+	margin-top:34px;
+}
+
+.right {
+  padding: 16px;
+  text-align: left;
+/*   width:600px; */
+}
+
+form{
+	display:block;
+	margin-top:0em;
+	width:620px;
+	float:left;
+	margin-left:10px;
+}
+
+.link{
+	color:gray;
+}
+
+.loginpclear{
+	display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: -webkit-center;
+    color: #1F4E5F;
+    clear: both;
+
+}
+
+.footer{
+	color:gray;
+}

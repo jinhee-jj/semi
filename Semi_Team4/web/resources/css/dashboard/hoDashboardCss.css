@@ -1,0 +1,130 @@
+@charset "UTF-8";
+
+.innerWrap{
+	max-width:1080px;
+	width: 90vw%;
+	max-height: 974px;
+	height: 85hv;
+	
+	position: absolute;
+	left: 15rem;
+	top: 5rem;
+
+	text-align:center;
+	align-content:center;
+	
+	overflow:auto;
+}
+
+h2 {
+	width: 90%;
+	text-align: left;
+	display: inline-block;
+}
+
+#moreView{
+	font-size: 2rem;
+}
+
+.innerLeft, .innerRight {
+	display: inline-block;
+	float:left;
+	max-width: 540px;
+	width:43%;
+	padding:2rem;
+}
+
+.innerRight{
+	height: 90%;
+}
+
+.dashviews {
+	overflow: auto;
+}
+
+.orderNowView,
+.revenueNowView {
+	max-height: 600px;
+	height: 86%;
+	overflow-y:auto;
+}
+
+.noticeView table,
+.revenueNowView table,
+.orderNowView table{
+	text-align: left;
+	border-collapse: collapse;
+	width: 100%;
+	white-space:nowrap;
+	
+	table-layout: fixed;
+}
+
+.noticeView tr, .revenueNowView tr
+{
+	height: 30px;
+	margin:0 auto;
+	padding: 1rem;
+	
+	border: 1px solid grey;
+}
+
+.noticeView td, .revenueNowView td,
+.orderNowView th, .orderNowView td{
+	height: 30px;
+	padding-left:1rem;
+	padding-right:1rem;
+}
+
+#noticeTable td:first-of-type{
+	width:70%;
+	text-overflow: ellipsis;
+	overflow:hidden;
+	white-space:nowrap;
+}
+
+#revenueGraph{
+	border: 1px solid grey;
+}
+
+#revenueNowTable{
+	text-align: center;
+}
+
+#revenueNowTable th, #revenueNowTable td,
+#orderNowTable th, #orderNotTable td{
+	border: 1px solid grey;
+}
+
+#revenueNowTable th,
+#orderNowTable th {
+	background:#AACFD0;
+}
+
+#revenueNowTable th,
+#revenueNotTable td,
+#orderNowTable th,
+#orderNowTable td{
+	border:1px solid black;
+	text-align:center;
+	text-overflow: ellipsis;
+}
+
+
+#orderNowTable th:first-of-type{
+	width: 35%;
+}
+
+#orderNowTable th:nth-of-type(2){
+	width: 15%;
+}
+
+#revenueGraph{
+	min-width: 400px;
+	width: 85%;
+	min-height: 250px;
+	height: 80%;
+	padding:1rem;
+	text-align: center;
+	margin:0 auto;
+}

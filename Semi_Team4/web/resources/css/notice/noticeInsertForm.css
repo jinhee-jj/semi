@@ -1,0 +1,101 @@
+@charset "UTF-8";
+	body {overflow:hidden}
+
+	.outer{
+		width:80vw;
+		height:90vh;
+		transform: translate(200px, 50px);
+		text-align:center;
+	}
+
+	#wrapper {
+		width: 90%;
+		height: 90%;
+		background: #EBEBEB;	
+	
+		position:absolute;
+		top:50%;
+		left:50%;
+		transform:translate(-50%, -50%);
+		
+		overflow:auto;
+		
+		text-align:center;
+	}
+
+	h2 {
+		text-align:left;
+		margin:auto;
+		margin-left:2rem;
+	}
+
+	th {
+		background:rgb(170,207,208);
+	}
+	
+	#writeTable{
+		width:100%;
+		background: #D4E7E7;
+		padding: 3rem;
+	}
+	
+	#listArea {
+		background:white;
+		width:85%;
+	}
+	#searchArea{
+		height:30px;
+		margin: 0 auto;
+		width:85%;
+		background:black;
+		border: 1px solid black;
+	}
+	#searchBtn{
+	 	height:27px;
+		background:rgb(255,95,46);
+		border-radius:5px;
+		border: 1px black;
+	}
+	.table-area {
+		background: #EBEBEB;
+	}
+	.writeText, textarea {
+		width:90%;
+		float: left;
+	}
+	.btn {
+		margin-top:5px;
+		background:rgb(121,168,169);
+		border: 1px black;
+	}
+	
+	textarea, input[type=text] {
+		border:none;
+		resize: none;
+		float:left;
+	}
+	
+	input[type=text]{
+		height:1.2rem;
+	}
+	
+	td{
+		vertical-align: top;
+	}
+	
+	input{
+		float:left;
+		margin:auto;
+	}
+
+	.buttons {
+		text-align: right;
+		margin-right: 1rem;
+	}
+	
+	.buttons button {
+		background: #AACFD0;
+		border: 0;
+		font-size:1rem;
+		margin-bottom: 70px;
+	}

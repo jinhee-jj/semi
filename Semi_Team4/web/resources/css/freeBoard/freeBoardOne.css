@@ -1,0 +1,133 @@
+@charset "UTF-8";
+
+/* .outer {
+	position: absolute;
+	max-width: 1080px; width : 90%;
+	max-height: 974px;
+	height: 90%;
+	background: #EBEBEB;
+	color: black;
+	margin-top: 5rem;
+	margin-left: 15rem;
+	width: 90%;
+	position: absolute;
+	max-width: 1080px;
+	width: 90%;
+	max-height: 974px;
+	height: 90%;
+	background: #EBEBEB;
+	top: 5rem;
+	left: 15rem;
+	display:block;
+	overflow:auto; 
+} */
+
+.outer {
+	width:80vw;
+	height:90vh;
+	transform: translate(200px, 50px);
+	text-align:center;
+}
+
+.wrap{
+	width: 90%;
+	height: 90%;
+	background: #EBEBEB;	
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%, -50%);
+	
+	overflow:auto;
+	
+	text-align:center;
+}
+
+tr>td {
+	padding-bottom: 1em;
+}
+
+form:nth-child(1) {
+	display: table-cell;
+	width: 100%;
+	vertical-align: middle;
+}
+
+.table-area {
+	width: 100%;
+	vertical-align: middle;
+	background: #AACFD0;
+}
+
+#title {
+	margin: 0 auto;
+	margin-bottom: 2rem;
+	margin-left: 2rem;
+}
+
+.table-area form {
+	width: 40%;
+	height: 30em;
+	padding: 2rem;
+}
+
+.bottm {
+	
+}
+
+.review {
+	margin-top: 1rem;
+	border: 0;
+	background: #AACFD0;
+	width: 100%;
+	padding: 1rem;
+}
+
+.review tbody {
+	border: 1px solid white;
+}
+
+.Btn {
+	background: #79A8A9;
+	border: 0;
+	cursor: pointer;
+}
+.bt{
+	width: 100%;
+}
+
+.freeTextarea {
+	resize: none;
+}
+
+.commentInput {
+	resize: none;
+	background: #EBEBEB;
+	align-self: center;
+	width: 95%;
+}
+
+#btn {
+	text-align: center;
+	background-color: #79A8A9;
+	width: 5rem;
+}
+
+.comment {
+	width: 100%;
+	background: #EBEBEB;
+}
+
+.repleArea {
+	background-color: white;
+}
+
+.nick_name {
+	background: #79A8A9;
+}
+
+.none {
+	background: white;
+	border: 0;
+	outline: none;
+}

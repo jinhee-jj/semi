@@ -1,0 +1,191 @@
+@charset "UTF-8";
+
+	table.deptTop, table.deptBottom {
+		display:block;
+        overflow:auto;
+        overflow-x: auto;
+        white-space: nowrap;
+        height:450px;
+	}
+	
+	table th{
+      position:sticky;
+      top:0px;
+    }
+	
+	table.deptBottom {
+        height:93px;
+        margin:30px;
+        width:98%;
+	}
+
+    #deptWrap{
+        max-width: 1080px;
+        width: 90%;
+        max-height: 974px;
+        height: 90%;
+        position: absolute;
+        left: 15rem;
+        top: 5rem;
+        padding: 16px;
+    }
+
+    table.deptTop,table.deptBottom  {
+        border-collapse: separate;
+        border-spacing: 1px;
+        text-align: center;
+        line-height: 1.5;
+        border-top: 1px solid #ccc;
+        margin : 20px 10px;
+        
+    }
+    
+    table.deptTop th, table.deptBottom th{
+        width: 155px;
+        padding: 10px;
+        font-weight: bold;
+        vertical-align: top;
+        border-bottom: 1px solid #ccc;
+        background: #AACFD0;
+    }
+    table.deptTop td, table.deptBottom td{
+        width: 500px;
+        padding: 10px;
+        text-align: center;
+        border-bottom: 1px solid #ccc;
+        /*  vertical-align: top; */
+    }
+ 
+    .submit,.rset, #deleteMember {
+        background-color: #79A8A9;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        display: inline-block;
+    }
+    
+     #deptSearchBtn{
+     	background-color: #79A8A9;
+        color: white;
+        padding: 5px 18px;
+        border: none;
+        display: inline-block;	
+        margin-left: 5px;
+        height: 28px;
+     
+     }
+    
+    .tableTopBtn{
+		margin-left:928px;
+		font-size: 13px;
+	}
+ 
+ 	.tableBottomBtn {
+		margin-left:1000px;
+	}
+ 
+    #memberId{
+        width: 60px;
+        border: none;
+    	text-align: center;
+    }
+    
+    #memberId2{
+    	width: 60px;
+    }
+    
+   	#deptCode, #memberDeptCode2, #deptCode{
+        width: 60px;
+        text-align: center;
+    }
+    
+    #memberDeptCode{
+    	width: 60px;
+        text-align: center;
+        border:none;
+        outline:none;
+    }
+    
+    
+    #memberName{
+        width: 80px;
+    	border:none;
+    	text-align: center;
+    	 outline:none;
+    }
+    
+    #memberName2{
+    	width: 80px;
+    	text-align:center;
+    }
+
+    #memberPwd, #memberPwd2, #deptCode2{
+	    width:80px;
+	    text-align: center;
+    }
+
+    #memberPhone{
+        width: 100px;
+        border: none;
+    	text-align: center;
+    	 outline:none;
+    }
+    
+    #memberPhone2{
+    	 width: 100px;
+    }
+    
+    #memberEmail{
+        width: 130px;
+        border: none;
+    	text-align: center;
+    }
+    
+    #memberEmail2{
+    	width: 130px;
+    }
+    
+    #deptCheck{
+        width: 10px;
+    }
+
+	.dA{
+		border:none;
+		text-align:center;
+		outline:none;
+	}
+	
+	.dB, .dC{
+		text-align:center;
+	}
+	
+   #searchCondition{
+       width: 70px;
+       height: 28px;
+       padding:5px;
+       margin-left:8px;
+   }
+
+   #searchCondition2{
+   	   width: 14%;
+       height: 3%;
+       padding:4px;
+   }
+   
+   #searchCondition3{
+   	   background-color: #79A8A9;
+       color: white;
+       padding: 3.8px 10px;
+       border: none;
+   }
+   
+   #deptSearch2{
+   	   margin-left:6px;
+   	   height:28px;
+   }
+   
+   .search{
+   	margin-left:8px;
+   }

@@ -1,0 +1,136 @@
+@charset "UTF-8";
+        .header {
+            background:white;
+            float:left;
+            width:100%;
+            top: 0;
+            margin:auto;
+            position: fixed;
+            background-color:rgba(255,255,255,0);
+
+        }
+        .article {
+            width:100%;
+            margin-left:190px;
+        }
+    
+        .article1 {
+            background: #1F4E5F;
+            height:50px;
+            padding: 0px 10px 0px 0px;
+            font-size: 15px;
+            text-align: right;
+            cursor: pointer;
+            outline: none;
+            line-height:50px;
+		}
+
+      .article1 button{
+         vertical-align: center;
+         background: none;
+         color:white;
+         margin-right: 220px;
+         font-weight: bold;
+         font-size: 15px;
+      }
+      .article1 span{
+         color: white;
+      }
+
+      #s1,#s2{
+         margin-left:120px;
+         float: left;
+      }
+
+        .sidenav {
+            width: 200px;
+            min-height: 924px;
+            height:100%;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            /* background-color: #AACFD0; */
+            overflow-x: hidden;
+            padding-top: 20px;
+            margin-top:80px;
+            background: repeating-linear-gradient(#AACFD0, #AACFD0 40% ,#AACFD0, #AACFD0 60%);
+            
+            
+        }
+
+        .logo{
+            position: fixed;
+            top: 0;
+            width: 200px;
+            z-index: 5;
+        }
+        
+        
+        
+        .logo img{
+        	width: 48%;
+		   /*  margin-left: 24%; */
+		   /* background: #1F4E5F; */
+
+        }
+        .sidenav .logo a{background: #1F4E5F;}
+        
+        .sidenav  a{
+            /* padding: 5px 0px 5px 5px; */
+            text-decoration: none;
+            font-size: 20px;
+            color: white;
+            display: block;
+            border: none;
+            background: #AACFD0;
+           /*  background: #1F4E5F; */
+            width: 100%;
+            text-align: center;
+            cursor: pointer;
+            outline: none;
+            
+        }
+
+        .dropdown-btn {
+            padding: 5px 5px 5px 5px;
+            text-decoration: none;
+            font-size: 25px;
+            color: white;
+            display: block;
+            background: #79A8A9;
+            width: 100%;
+            text-align: center;
+            cursor: pointer;
+            outline: none;
+            border:1px solid white;
+        }
+
+        /* On mouse-over */
+        .sidenav .dropdown-container a:hover{
+            color: white;
+            background-color: #1F4E5F;
+        }
+        .dropdown-btn:hover {
+            color: white;
+            background-color: #1F4E5F;
+        }
+
+        .dropdown-btn.active {
+            background-color: #1F4E5F;
+        }
+
+        .dropdown-container {
+            display: none;
+            background-color: #AACFD0;
+            padding-left: 3px;
+            border: 1px solid white;
+        }
+
+        
+        .weatherView{
+        	display: inline-block;
+        	/* position: absolute;
+        	left:75%; */
+        	vertical-align:middle;
+        }

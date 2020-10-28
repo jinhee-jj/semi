@@ -1,0 +1,169 @@
+@charset "UTF-8";
+
+	
+	body {overflow:hidden}
+	
+ 	.branchPurchaseWrap {
+ 		border: 1px solid #E0E0E0;
+		max-width:1080px;
+		width:90%;
+		max-height:974px;
+		height:90%;
+		position:absolute;
+		left:15rem;
+		top:5rem;
+		display:block;
+		overflow:auto;
+		text-align:center;
+	}
+	#ingrediantArea {
+		float:left;
+		margin: 0 auto;
+		width:50%;
+		height:70%;
+	}
+	#cartArea {
+		float:left;
+		margin: 0 auto;
+		text-align:center;	
+		width:50%;
+		height:70%;
+	}	
+	#ingrediantList-back {
+		margin:0 auto;
+		align:center;
+		width:100%;
+		height:85%;
+	}
+	#cartList-back	{
+		align:center;
+		text-align:center;
+		width:100%;
+		height:85%;
+	}
+	#ingrediantListTable{
+		width:100%;
+		height:90%;
+		display:block;
+		overflow:auto;
+		overflow-x: auto;
+	    white-space: nowrap;
+	}		
+	#cartTable {
+		float:right;
+		text-align:center;
+		margin-top:4%;
+		margin-left:auto;
+		margin-right:auto;
+		display:block;
+		width:90%;
+		height:85%;
+		overflow:auto;
+		overflow-x: auto;
+	    white-space: nowrap;
+	}
+	#ingrediantTableArea {
+		height:90%;
+		
+	}
+
+	#allListBtn {
+		float:right;
+		height:27px;
+		margin-bottom:3px;
+	}
+	
+	label {
+		font-size:20px;
+	}
+	
+	#totalArea {
+		margin: 0 auto;
+		background:white;
+		height:100px;
+		width:100%;
+	}
+	#cartBtn {
+		float:right;
+	}
+	#totalTable{
+		width:100%;
+		height:50px;
+	}
+	#ingrediantListTable tr:hover, #cartTable tr:hover {
+		background:rgb(170,207,208,0.5);
+
+	}
+	
+	#searchBtn, #cartBtn, #registerBtn {
+		background:rgb(121,168,169);
+		border:1px black;
+		height:27px;
+	}
+	#registerBtn {
+		float:left;
+	}
+	#searchBtn:hover, #cartBtn:hover, #registerBtn:hover, #allListBtn:hover {
+		background:rgba(121,168,169,0.5);
+		
+	}
+	th {
+		background:rgb(170,207,208);
+	}
+	#totalTableArea {
+		border:2px solid #919E9E;
+	
+	}
+	#ingrediantListTable th, #cartTable th {
+		position:sticky;
+		top:0px;
+	}
+	
+	#modalBackground {
+    display: none;
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(0,0,0,0.3);
+    z-index: 10;
+	}
+	
+	#detailCloseBtn {
+	margin-top:5px;
+	background:rgb(121,168,169);
+	border: 1px black;
+	}
+	
+	#detailContent {
+	border:1px solid #E0E0E0;
+	margin:0 auto;
+    display: none;
+    position: fixed;
+    left: calc( 50% - 160px ); top: calc( 50% - 70px );
+    width: 25%; height:30%; 
+    background: #fff;
+    z-index: 11;
+	}
+    
+    .registerCheckTable {
+    width:100%;
+    height:80%;
+    text-align:center;
+    }
+    
+   .orderBtn {
+    	margin-top:5px;
+    }  
+	.date {
+		margin-top:2%;
+		height:5%;	
+		margin-right:1%;
+	}
+	#cartText {
+		margin-left:9%;
+	}
+	
+	input[type=date] {
+		background: #E0E0E0;
+		border : 0.1;
+	}

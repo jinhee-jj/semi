@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+
+	.wrap {
+		width:100%;
+		max-height:1280px;
+		height:1280px;
+	}
+	.header {
+		float:left;
+		width:100%;
+		height:8%;
+	}
+	#cartImg {
+		width:100px;		
+		height:100px
+	}
+	#damgi {
+		float:left;
+		margin-top:1%;
+		width:20%
+	}
+	#trashImg {
+		padding-top:0.1%;
+		
+	}
+	#checkImg {
+		padding-right:1%;
+	}
+	#cartList {
+		height:50%;
+		overflow: auto;
+	}
+	#cartTable {
+		font-size:2rem;
+		border-collapse:collapse;
+		width:100%;
+		height:40%;
+	}
+	#cartTable tr {
+		padding:2%;
+		height:11%;
+	}
+	#cartTable td {
+		border-collapse:collapse;
+		border-bottom:1px solid black;
+	}
+	#cartImg, #damgi, #trashImg, #checkImg {
+		vertical-align:middle;
+	}
+	#totalTable {
+		font-size:2rem;
+		width:100%;
+	}
+	#orderArea{
+		background: #F57C9B;
+		color:white;
+		width:100%;
+		height:7%;
+		font-weight:bold;
+		font-size:2.5rem;
+		vertical-align:middle;
+		border:0;
+	}
+	#chooseAll {
+		float:left;
+		background: black;
+		color:white;
+		height:7%;
+		text-align:center;
+		font-weight:bold;
+		font-size:2.5rem;
+		width:45%;
+		border:0;
+	}
+	#delete {
+		float:right;
+		background: #CBC8C8;
+		color:#BDB1B1;
+		height:7%;
+		text-align:center;
+		font-weight:bold;
+		font-size:2.5rem;
+		width:45%;
+		border:0;
+	}
+	#headerTable {
+		width:100%;
+	}
+	p {
+		font-size:1rem;
+		margin-top:3%;
+		color:grey;
+	}
+	#menuName{
+		font-weight:bold;
+	}
+	#menuPrice, #totalPrice{
+		font-size:1.5rem;
+		color:#DA7878;
+	}
+	hr{
+		height:2px;
+		background:black;
+	}

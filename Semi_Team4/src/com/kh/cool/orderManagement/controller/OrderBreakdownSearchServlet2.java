@@ -1,0 +1,85 @@
+package com.kh.cool.orderManagement.controller;
+
+import java.io.IOException;
+import java.util.ArrayList;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
+
+import com.google.gson.Gson;
+import com.kh.cool.member.model.vo.Member;
+import com.kh.cool.orderManagement.model.service.KioskService;
+import com.kh.cool.orderManagement.model.vo.OrderDetail;
+import com.kh.cool.orderManagement.model.vo.OrderResult;
+
+/**
+ * Servlet implementation class OrderBreakdownSearchServlet2
+ */
+@WebServlet("/search2.om")
+public class OrderBreakdownSearchServlet2 extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+       
+    /**
+     * @see HttpServlet#HttpServlet()
+     */
+    public OrderBreakdownSearchServlet2() {
+        super();
+        // TODO Auto-generated constructor stub
+    }
+
+	/**
+	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+String date = request.getParameter("date");
+		
+		HttpSession session = request.getSession();
+		Member loginUser = (Member) session.getAttribute("loginMember");
+		String writer = loginUser.getDeptCode();
+		
+		String bk = writer.substring(0, 3);
+		if( bk.equals("BNH") ) {
+			
+			String kiosk = new KioskService().selectKiosk(writer);
+			
+			String[] kioskArr = kiosk.split(",");
+			
+			ArrayList<OrderResult> history = new KioskService().searchOHistory(kioskArr,date);
+			
+			ArrayList<OrderDetail> detail = new KioskService().searchODetail(kioskArr,date);
+			
+			response.setContentType("application/json; charset=UTF-8");
+			Gson gson = new Gson();
+			gson.toJson(detail, response.getWriter());
+			
+		} else {
+			
+			String zizum = request.getParameter("zizum");
+			
+			String kiosk = new KioskService().selectKiosk(zizum);
+			
+			String[] kioskArr = kiosk.split(",");
+			
+			ArrayList<OrderDetail> detail = new KioskService().searchODetail(kioskArr,date);
+			
+			response.setContentType("application/json; charset=UTF-8");
+			Gson gson = new Gson();
+			gson.toJson(detail, response.getWriter());
+			
+		}
+		
+	}
+
+	/**
+	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		doGet(request, response);
+	}
+
+}

@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+.outer{
+	width:80vw;
+	height:90vh;
+	transform: translate(200px, 50px);
+	text-align:center;
+}
+
+.boardWrap {
+	width: 90%;
+	height: 90%;
+	background: #EBEBEB;	
+
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%, -50%);
+	
+	overflow:auto;
+	
+	text-align:center;
+}
+
+h2 {
+	text-align:left;
+	margin:auto;
+	margin-left:2rem;
+}
+
+.insertBody {
+	width:100%;
+	background-color: #D4E7E7;
+}
+
+.tableForm {
+	width:100%;
+	background: #D4E7E7;
+	padding: 3rem;
+}
+
+.inputText, .textArea {
+	border: none;
+	width: 90%;
+	resize: none;
+	float:left;
+}
+
+.inputText {
+	height: 1.2rem;
+}
+
+
+td{
+	vertical-align: top;
+}
+
+.buttons {
+	text-align: right;
+	margin-right: 2rem;
+}
+
+.inputBoard2 {
+	background: #AACFD0;
+	border: 0;
+	font-size:1.3rem;
+}
+
+.noneIn {
+	border: none;
+	outline: none;
+}

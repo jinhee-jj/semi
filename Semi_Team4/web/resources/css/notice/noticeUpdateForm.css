@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+	body {overflow:hidden}
+
+	#wrapper {
+		max-width:1080px;
+		width: 90%;
+		height: 90%;
+		
+		position: absolute;
+		left: 15rem;
+		top: 5rem;
+	
+		background: #EBEBEB;	
+		
+		text-align:center;
+		overflow:auto;
+	}
+
+	h2 {
+		text-align:left;
+		margin:auto;
+		margin-left:2rem;
+	}
+
+	th {
+		background:rgb(170,207,208);
+	}
+	
+	#writeTable{
+		width:100%;
+		background: #D4E7E7;
+		padding: 3rem;
+	}
+	
+	#listArea {
+		background:white;
+		width:85%;
+	}
+	#searchArea{
+		height:30px;
+		margin: 0 auto;
+		width:85%;
+		background:black;
+		border: 1px solid black;
+	}
+	#searchBtn{
+	 	height:27px;
+		background:rgb(255,95,46);
+		border-radius:5px;
+		border: 1px black;
+	}
+	.table-area {
+		background: #EBEBEB;
+	}
+	.writeText, textarea {
+		width:90%;
+		float: left;
+	}
+	.btn {
+		margin-top:5px;
+		background:rgb(121,168,169);
+		border: 1px black;
+	}
+	
+	textarea, input[type=text] {
+		border:none;
+		resize: none;
+		float:left;
+	}
+	
+	input[type=text]{
+		height:1.5rem;
+	}
+	
+	td{
+		vertical-align: top;
+	}
+	
+	input{
+		float:left;
+		margin:auto;
+	}
+
+	.buttons {
+		text-align: right;
+		margin-right: 1rem;
+	}
+	
+	.buttons button {
+		background: #AACFD0;
+		border: 0;
+		font-size:1rem;
+		margin-bottom: 70px;
+	}

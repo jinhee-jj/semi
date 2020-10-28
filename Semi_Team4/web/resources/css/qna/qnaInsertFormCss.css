@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+.outer{
+	width:85vw;
+	height:90vh;
+	transform: translate(200px, 50px);
+	text-align:center;
+}
+
+.boardWrap{
+	width: 90%;
+	height: 90%;
+	background: #EBEBEB;	
+
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%, -50%);
+	
+	overflow:auto;
+	
+	text-align:center;
+}
+
+h2 {
+	text-align:left;
+	margin:auto;
+	margin-left:2rem;
+}
+
+.boardWrap table {
+	width:100%;
+	background: #D4E7E7;
+	padding: 3rem;
+}
+
+.boardTable td {
+	vertical-align: top;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
+.boardTable .inputArea input, textarea {
+	width:90%;
+}
+
+textarea, input[type=text] {
+	border:none;
+	resize: none;
+	outline: none;
+	font-size: 20px;
+}
+
+input[type=text] {
+	height:1.5rem;
+	padding:0.5rem;
+}
+
+textarea{
+	padding:0.5rem;
+}
+
+.buttons {
+	text-align: right;
+	margin-right: 2rem;
+}
+
+.buttons .btn {
+	background: #AACFD0;
+	border: 0;
+	font-size:1.2rem;
+}
+
+#attached {
+	padding-left: 3rem;
+	text-align: left;
+}
+
+.boardTable tr td:first-of-type,
+.boardTable tr th:first-of-type{
+	width: 5rem;
+}
+
+#commentView{
+	height:30rem;
+	overflow:auto;
+}
+
+#commentBtn>div{
+	width:90%;
+	background: #AACFD0;
+	margin:0 auto;
+	padding: 0.5rem;
+}
+
+#commentTable tbody td:not(:first-of-type){
+	border-top: 1.5px solid lightgrey;
+	border-collapse: collapse;
+}
+
+#commentTable tbody tr td:nth-last-child(2){
+	text-align: left;
+	width:35vw;
+	padding-left: 2rem;
+}

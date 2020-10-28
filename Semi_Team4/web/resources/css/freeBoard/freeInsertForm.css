@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+.outer {
+	width:80vw;
+	height:90vh;
+	transform: translate(200px, 50px);
+	text-align:center;
+}
+
+.wrap{
+	width: 90%;
+	height: 90%;
+	background: #EBEBEB;	
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%, -50%);
+	
+	overflow:auto;
+	
+	text-align:center;
+}
+
+h2 {
+	text-align:left;
+	margin:auto;
+	margin-left:2rem;
+}
+
+.table-area {
+	width:100%;
+	background: #D4E7E7;
+	padding: 3rem;
+}
+
+.table-area td{
+	vertical-align: top;
+}
+
+.inputArea, textarea{
+	width: 90%;
+	float:left;
+}
+
+textarea, input[type=text] {
+	border:none;
+	resize: none;
+}
+
+input[type=text]{
+	height:1.2rem;
+}
+
+.buttons {
+	text-align: right;
+	margin-right: 2rem;
+}
+
+.buttons button {
+	background: #AACFD0;
+	border: 0;
+	font-size:1.3rem;
+}
+
+td{
+	width:1rem;
+}
+
+.fileAttach{
+	float:left;
+}

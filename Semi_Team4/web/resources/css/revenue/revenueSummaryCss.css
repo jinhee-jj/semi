@@ -1,0 +1,134 @@
+@charset "UTF-8";
+
+.outer{
+	width:90vw;
+	height:90vh;
+	transform: translate(200px, 50px);
+	text-align:center;
+	overflow:auto;
+}
+
+.inner-wrapper{
+	width: 90%;
+	height: 90%;
+
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%, -50%);
+	
+	overflow:auto;
+	
+	text-align:center;
+}
+
+.top{
+	padding-right: 1.5rem;
+}
+
+.inner-wrapper #inquiryDiv{
+	text-align:right;
+}
+
+#selectBranchOption{
+	display: inline-block;
+}
+
+.overview-values{
+	text-align:left;
+}
+
+.overview-values>#selectedBranch{
+	padding-left: 1rem;
+	font-weight: bold;
+	font-size: 1.3rem;
+}
+
+#selectedBranch{
+	text-decoration: none;
+	
+}
+
+.overview-values>table{
+	text-align:center;
+	width: 96%;
+	padding: 1rem;
+	margin:0 auto;
+	border-collapse: collapse;
+	border:1px solid black;
+}
+
+.overview-values td{
+	width: calc(100% / 6);
+}
+
+.overview-values .tag{
+	background: #AACFD0;
+	height:2rem;
+}
+
+.overview-table {
+	text-align: center;
+	margin:0 auto;
+}
+
+.overview-table>div{
+	display:inline-block;
+	width:48%;
+	margin:0 auto;
+	overflow-x:auto;
+}
+
+.overview-table h3{
+	text-align:left;
+}
+
+.overview-table table{
+	width:100%;
+}
+
+.overview-table th{
+	background: #AACFD0;
+}
+
+.monthOverview-table,
+.dayOverview-table {
+	max-height: 300px;
+	overflow: auto;
+}
+
+.monthOverview-table table,
+.dayOverview-table table {
+	border:1px solid black;
+	border-collapse: collapse;
+}
+
+.monthOverview-table th,
+.monthOverview-table td,
+.dayOverview-table th,
+.dayOverview-table td {
+	border:1px solid black;
+}
+
+.overview-graph{
+	text-align: center;
+	margin:0 auto;
+}
+
+.overview-graph>div{
+	display:inline-block;
+	width:48%;
+	border:1px solid black;
+}
+
+.monthGraph, .dayGraph {
+	margin:2rem auto;
+	width:80%;
+	height:30vh;
+	text-align:center;
+	vertical-align:middle;
+}
+
+td{
+	height: 2rem;
+}

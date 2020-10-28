@@ -1,0 +1,53 @@
+@charset "UTF-8";
+body {overflow:hidden}
+
+.boardWrap {
+	max-width: 1080px;
+	width: 90%;
+	max-height: 974px;
+	height: 90%;
+	position: absolute;
+	left: 15rem;
+	top: 5rem;
+	background-color: #ebebeb;
+	display:block;
+	overflow:auto;
+}
+
+#searchForm {
+	background-color: #AACFD0;
+ 	display: flex;
+	align-items: center;
+	height: 2.5rem;
+}
+
+#miniBtn {
+	border: 0;
+	background-color: #AACFD0;
+}
+
+#inputBoard {
+	float:right;
+	background:#AACFD0;
+	border: 0;
+	margin: 2rem;
+}
+
+h2 {
+	padding-left: 1rem;
+}
+
+.mainTr {
+	background-color:rgb(121,168,169);
+}
+
+.boardSt {
+	text-align:center;
+	width: 100%;
+	border: 1px solid rgba(196, 196, 196, 0.3);
+	border-collapse: collapse;
+	margin:0 auto;
+}
+.boardSt td {
+	height:2rem;
+}
